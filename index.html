@@ -35,12 +35,12 @@
   </nav>
   <div class="nav-links" id="link">
     <ul>
-      <li><i class="fa-brands fa-facebook-f"></i>Facebook</li>
-      <li><i class="fa-brands fa-tiktok"></i>Tiktok</li>
-      <li><i class="fa-brands fa-x-twitter"></i>X</li>
-      <li><i class="fa-brands fa-instagram"></i>Instagram</li>
-      <li><i class="fa-regular fa-address-card"></i>About</li>
-      <li><i class="fa-solid fa-phone"></i>Contact us</li>
+      <li id="facebook"><i class="fa-brands fa-facebook-f"></i>Facebook</li>
+      <li id="tiktok"><i class="fa-brands fa-tiktok"></i>Tiktok</li>
+      <li id="twitter"><i class="fa-brands fa-x-twitter"></i>X</li>
+      <li id="instagram"><i class="fa-brands fa-instagram"></i>Instagram</li>
+      <li id="about"><i class="fa-regular fa-address-card"></i>About</li>
+      <li id="contact"><i class="fa-solid fa-phone"></i>Contact us</li>
     </ul>
   </div>
   <div class="head">
@@ -96,6 +96,65 @@
 </body>
 <script src="nav.js"></script>
 <script>
+
+const facebook = document.getElementById('facebook')
+ 
+ facebook.addEventListener('click', () =>{
+    window.open('facebook.html')
+  })
+  
+  
+  
+  
+  const twitter = document.getElementById('twitter')
+ 
+ twitter.addEventListener('click', () =>{
+    window.open('twitter.html')
+  })
+  
+  
+  
+  const instagram = document.getElementById('instagram')
+ 
+ instagram.addEventListener('click', () =>{
+    window.open('instagram.html')
+  })
+  
+  const tiktok = document.getElementById('tiktok')
+ 
+ tiktok.addEventListener('click', () =>{
+    window.open('tiktok.html')
+  })
+  
+  
+  
+  const about = document.getElementById('about')
+ 
+ about.addEventListener('click', () =>{
+    window.open('about.html')
+  })
+  
+  
+  const contact = document.getElementById('contact')
+ 
+ contact.addEventListener('click', () =>{
+    window.open('contact.html')
+  })
+  
+  
+  
+  
+  
+
+
+
+
+
+
+  
+
+
+  
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </html>
