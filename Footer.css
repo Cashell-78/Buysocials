@@ -1,0 +1,28 @@
+footer{
+  background: #26264A;
+  height: 200px;
+  text-align: center;
+  color: whitesmoke;
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+}
+footer h3{
+  margin-top: 20px;
+}
+footer p{
+  margin-top: 10px;
+}
+.link-foot ul li{
+  display: inline-block;
+  margin: 15px;
+}
+.link-foot ul li i{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #26264A;
+  border-radius: 50%;
+  background: white;
+}

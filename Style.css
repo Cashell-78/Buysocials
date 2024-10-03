@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+}
+
+.submit{
+  margin: 10px;
+  width: 100px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  background: #26264A;
+  border: none;
+  letter-spacing: 1px;
+}
+body{
+  background: #F8F9FB;
+}
+
+.head img{
+  width: 80%;
+}
+.head{
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #26264A;
+}
+.head p{
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 380;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: #26264A;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+b{
+  font-size: 20px;
+}
+.head h2{
+  margin-top: 10px;
+}
+form input{
+  margin-left: 20px;
+  width: 80;
+  padding-left: 10px;
+  height: 40px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #26264A;
+}
+form p{
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #26264A;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 480;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+form{
+  display: grid;
+  place-content: center;
+}
+textarea{
+  margin-left: 20px;
+  width: 260px;
+  padding-left: 10px;
+  height: 100px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  padding-top: 5px;
+  border: 1px solid ;
+}
+.contact{
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 680;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.ptag{
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 380;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
